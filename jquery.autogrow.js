@@ -71,7 +71,6 @@
       var $this = $(this);
             
       if (!$this.data("autogrow-initialized")) {
-        $this.css("padding-top", 0).css("padding-bottom", 0);
         $this.bind("keyup", resize).bind("focus", resize);
         $this.data("autogrow-initialized", true);
       }
